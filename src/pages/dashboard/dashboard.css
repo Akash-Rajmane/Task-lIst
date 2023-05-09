@@ -1,0 +1,6 @@
+.dashboard{
+    background-color: rgb(187, 193, 226);
+    width: 100%;
+    max-height: auto;
+    min-height: 100vh;
+}
