@@ -1,45 +1,49 @@
-.listContainer{
-    display: block;
-    margin: 80px auto;
+.listContainer {
+  display: block;
+  margin: 80px auto;
 }
 
-
-.list{
-   display: grid;
-   grid-template-columns: auto;
-   list-style: none;
-   padding-inline-start: 0px;
+.list {
+  display: grid;
+  grid-template-columns: auto;
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
-.listItem{
-    list-style: none;
-    margin: 20px auto;
-    min-height: 40px;
-    text-align: center;
-    height: max-content;
-    color: rgb(34, 27, 27);
-    font-size: 20px;
-    background-color: #eeeeee;
-    width: 700px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    word-wrap: break-word;
+.listItem {
+  list-style: none;
+  margin: 20px auto;
+  min-height: 40px;
+  text-align: center;
+  height: max-content;
+  color: rgb(34, 27, 27);
+  font-size: 20px;
+  background-color: #eeeeee;
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  word-wrap: break-word;
 }
 
-dd{
-    text-align: left;
-    font-size: 16px;
-    margin: 0px 15px;
+dd {
+  text-align: left;
+  font-size: 16px;
+  margin: 0px 15px;
 }
 
-.del{
-    position: relative;
-    top: 5px;
-    float: right;
-    margin-right: 5px;
+.del {
+  position: relative;
+  top: 5px;
+  float: right;
+  margin-right: 5px;
+}
+
+.subtasklist {
+  list-style: none;
+  float: left;
 }
 
 @media only screen and (max-width: 720px) {
-    .listItem{
-        width: 320px;
-    }
+  .listItem {
+    width: 320px;
+  }
 }
